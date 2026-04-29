@@ -30,7 +30,7 @@ jobs:
       - name: Build Astro site
         run: npm run ci:build
         env:
-          BCMS_TOKEN: ${{ secrets.BCMS_TOKEN }}
+          BCMS_TOKEN: ${{ secrets.BCMS_API_KEY }}
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
