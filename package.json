@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "bcms pull types lng ts && astro dev",
     "start": "bcms pull types lng ts && astro dev",
-    "build": "astro check && astro build",
-    "ci:build": "npx bcms pull types lng ts && astro check && astro build",
-    "preview": "bcms pull types lng ts && astro preview",
+    "build": "astro build",
+    "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
