@@ -20,7 +20,7 @@
         "@thebcms/utils": "^2.0.0",
         "@types/react": "^19.1.2",
         "@types/react-dom": "^19.1.2",
-        "astro": "^6.1.10",
+        "astro": "^5.18.1",
         "classnames": "^2.5.1",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",

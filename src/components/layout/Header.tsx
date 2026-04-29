@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Logo from '../../assets/icons/logo.svg?raw';
+// import Logo from '../../assets/icons/logo.svg?raw';
+// import logo from '../../assets/icons/logo.jpeg';
 import MenuIcon from '../../assets/icons/menu.svg?raw';
 import XIcon from '../../assets/icons/x.svg?raw';
 import CartIcon from '../../assets/icons/cart.svg?raw';
@@ -15,13 +16,11 @@ export const Header: React.FC = () => {
             <div className="relative z-10 container">
                 <nav className="relative flex items-center justify-between py-6 md:py-8">
                     <a href="/" className="flex" aria-label="Home page">
-                        <div
-                            dangerouslySetInnerHTML={{
-                                __html: Logo,
-                            }}
-                            className={classNames('w-[92px]', {
-                                'max-md:grayscale max-md:brightness-0 max-md:invert':
-                                    showMobileMenu,
+                        <img
+                            src="/icons/logo_transparent.png"
+                            alt="Logo"
+                            className={classNames('h-10 w-auto md:h-14 lg:h-16 object-contain transition-all duration-300', {
+                                'grayscale brightness-0 invert': showMobileMenu,
                             })}
                         />
                     </a>
