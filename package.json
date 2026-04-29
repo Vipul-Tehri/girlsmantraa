@@ -6,6 +6,7 @@
     "dev": "bcms pull types lng ts && astro dev",
     "start": "bcms pull types lng ts && astro dev",
     "build": "astro build",
+    "ci:build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
